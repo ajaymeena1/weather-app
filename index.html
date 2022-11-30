@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Weather API</title>
+    <script src="script.js"></script>
+
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="heading">
+            Weather Api
+        </h1>
+        <form class="form" id="form" method="POST" onsubmit="initAPiCall();return false;">
+            <p class="location" id="location">
+                <label for="" class="form-field"><input type="text" name="location1" id="location1" placeholder="Location"></label>
+            </p>
+            <p class="accesstoken" id="accesstoken">
+                <label for="form-field" class="form-field"><input type="text" name="accestoken1" id="accesstoken1"
+                        placeholder="Access Token"></label>
+            </p>
+            <p class="btn" id="btn">
+                <button class="btn1" id="btn1" type="submit">Submit</button>
+            </p>
+        </form>
+
+        <h1 class="heading1">Weather Data</h1>
+        <div class="display" id="display">
+            <p class="location2" id="location2">Location:</p>
+            <p class="lat" id="lat">Lat:</p>
+            <p class="long" id="long">Long:</p>
+            <p class="time-zone" id="time-zone">TimeZone:</p>
+            <p class="wind-speed" id="wind-speed">Wind Speed:</p>
+            <p class="pressure" id="pressure">Pressure:</p>
+            <p class="humidity" id="humidity">Humidity:</p>
+            <p class="wind-direction" id="wind-direction">Wind Direction:</p>
+            <p class="uv-index" id="uv-index">UV Index:</p>
+            <p class="feels-like" id="feels-like">Feels Like:</p>
+        </div>
+    </div>
+</body>
+
+</html>

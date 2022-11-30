@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Roboto+Condensed:ital@1&display=swap');
+.container {
+    position: absolute;
+    width: 100%;
+    height: 60%;
+    left: 0px;
+    top: 0px;
+    background: #000000;
+}
+
+.heading {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    a: 50%;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-size: 40px;
+    line-height: 121px;
+    color: #FFFFFF;
+}
+
+.form-field {
+    width: 100%;
+    justify-content: center;
+    display: flex;
+}
+
+.location input {
+    height: 60px;
+    border: 1px solid #FFFFFF;
+    background: #000000;
+    color: #FFFFFF;
+    width: 70%;
+}
+
+.location ::placeholder {
+    position: absolute;
+    width: 321px;
+    height: 29px;
+    left: 25px;
+    top: 18px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+
+.accesstoken input {
+    width: 70%;
+    height: 60px;
+    border: 1px solid #FFFFFF;
+    background: #000000;
+    color: #FFFFFF;
+}
+
+.accesstoken ::placeholder {
+    position: absolute;
+    width: 202px;
+    height: 29px;
+    left: 25px;
+    top: 15px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+
+.btn {
+    height: 58px;
+    margin-left: 14.8%;
+    margin-top: 25px;
+}
+
+.btn1 {
+    border: 0px;
+    width: 180px;
+    height: 60px;
+    background: white;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #000000;
+    color: #000000;
+}
+
+.heading1 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 250px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    margin-left: 40px;
+    color: #000000;
+}
+
+.display {
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+    border: 2px solid #000000;
+}
+
+.location2,
+.uv-index,
+.lat,
+.long,
+.time-zone,
+.wind-speed,
+.pressure,
+.humidity,
+.wind-direction,
+.feels-like {
+    width: 669.46px;
+    height: 74px;
+    left: 20px;
+    top: 0px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 61px;
+    color: #000000;
+    margin-left: 20px;
+}
